@@ -4,7 +4,7 @@
       <v-col cols="12" sm="10" md="9" lg="8" xl="6">
         <v-carousel>
           <v-carousel-item v-for="(entry, i) in entries" :key="entry.url">
-            <v-sheet :color="colors[i]" height="100%" tile>
+            <v-sheet color="secondary" height="100%" tile>
               <v-row class="fill-height" align="center" justify="center">
                 <div class="slide">
                   <a :href="entry.url" class="display-2 white--text">{{ entry.title }}</a>

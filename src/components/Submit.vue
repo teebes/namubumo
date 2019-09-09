@@ -1,9 +1,11 @@
 <template>
   <v-container class="fill-height" fluid>
     <v-row align="center" justify="center">
-      <v-col cols="12" sm="8" md="4">
+      <v-col cols="12" sm="9" md="6">
         <v-card class="elevation-12">
-          <v-card-title>Submit an Entry</v-card-title>
+          <v-toolbar color="secondary" dark flat>
+            <v-toolbar-title>Submit an Entry</v-toolbar-title>
+          </v-toolbar>
           <v-card-text>
             <v-form>
               <v-text-field label="Name" prepend-icon="mdi-account-circle"></v-text-field>

@@ -1,11 +1,13 @@
 <template>
   <v-container class="fill-height" fluid>
     <v-row align="center" justify="center">
-      <v-col cols="12" sm="8" md="6">
+      <v-col cols="12" sm="9" md="6">
         <v-card class="elevation-12">
-          <v-card-title>NaMuBuMo</v-card-title>
+          <v-toolbar color="secondary" dark flat>
+            <v-toolbar-title>(Na)tional (Mu)d (Bu)ilding (Mo)nth!</v-toolbar-title>
+          </v-toolbar>
           <v-card-text>
-            <div>Welcome to the (Na)tional (Mu)d (Bu)ilding (Mo)nth!</div>
+            <div>Welcome to the National Mud Building Month.</div>
             <div
               class="mt-4"
             >You have all of October to build a MUD with at least 100 rooms and 10 mobs.</div>
