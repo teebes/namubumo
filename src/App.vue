@@ -17,9 +17,9 @@
         <v-btn v-for="link in links" :key="link" color="white" text rounded class="my-2">{{ link }}</v-btn>
         <v-col class="footer-links primary lighten-2 py-4 text-center white--text" cols="12">
           <strong>
-            <a href='https://writtenrealms.com/' class="white--text">Written Realms </a>
-            &amp; 
-            <a href='https://mudcoders.com/' class="white--text">The Mud Coder's Guild</a>
+            <a href="https://mudcoders.com/" class="white--text">The Mud Coder's Guild</a>
+            &amp;
+            <a href="https://writtenrealms.com/" class="white--text">Written Realms</a>
           </strong>
         </v-col>
       </v-row>
@@ -46,10 +46,9 @@ export default {
 }
 
 @media only screen and (max-width: 500px) {
-  .page-title { 
-    font-size: 26px; 
+  .page-title {
+    font-size: 26px;
     margin: 32px 0;
   }
 }
-
 </style>
