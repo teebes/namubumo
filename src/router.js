@@ -20,8 +20,8 @@ export default new Router({
     {
       path: "/submit",
       name: "Submit",
-      // component: () => import("@/components/Submit.vue")
-      component: () => import("@/components/Contact.vue")
+      component: () => import("@/components/Submit.vue")
+      //component: () => import("@/components/Contact.vue")
     },
     {
       path: "/rules",

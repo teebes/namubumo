@@ -1,7 +1,32 @@
 <template>
-  <v-container class="fill-height" fluid>
+  <v-container>
+    <!-- Page Title -->
+    <v-row align="center" justify="center">
+      <v-col cols="12">
+        <div class="page-title d-flex flex-row justify-center">Submit Your Entry!</div>
+      </v-col>
+    </v-row>
+
     <v-row align="center" justify="center">
       <v-col cols="12" sm="9" md="6">
+        <p>
+          Submit your Namubumo entry below. If your submission is in the form of downloadable files, compress them into a single file and submit the url to that file as the
+          <strong>game URL</strong> field.
+        </p>
+
+        <p>
+          If you have any questions, or prefer to submit via email, contact us at
+          <a
+            href="mailto:namubumo@gmail.com"
+          >namubumo@gmail.com</a>
+        </p>
+      </v-col>
+    </v-row>
+
+    <!-- Submission Form -->
+    <v-row align="center" justify="center" class='mb-12'>
+      <v-col cols="12" sm="9" md="6">
+        <!-- Submission success -->
         <v-card class="elevation-12" v-if="submitted">
           <v-toolbar color="green" dark flat>
             <v-toolbar-title>Success!</v-toolbar-title>
@@ -11,6 +36,8 @@
             <router-link to="/entries">entries</router-link> section.
           </v-card-text>
         </v-card>
+
+        <!-- Entry submission -->
         <v-card class="elevation-12" v-else>
           <v-toolbar color="secondary" dark flat>
             <v-toolbar-title>Submit an Entry</v-toolbar-title>
@@ -77,9 +104,7 @@ export default {
         v => /.+@.+\..+/.test(v) || "E-mail must be valid"
       ],
       url: "",
-      urlRules: [
-        v => !!v || "URL is required",
-      ],
+      urlRules: [v => !!v || "URL is required"],
       title: "",
       titleRules: [v => !!v || "Title is required"],
       description: ""
@@ -96,8 +121,8 @@ export default {
         };
         if (this.description) {
           payload.description = this.description;
-        }        
-        const resp = await axios.post(
+        }
+        await axios.post(
           "https://writtenrealms.com:9000/api/v1/namu/submissions/",
           payload
         );
