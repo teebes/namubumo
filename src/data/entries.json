@@ -1,14 +1,38 @@
 [
   {
-    "name": "Thibaud",
-    "title": "The Seven Temples",
-    "description": "Do you have what it takes to become a Nak'rokh Elite?",
-    "url": "https://herald.writtenrealms.com/lobby/worlds/1/the-unbroken-world"
+    "name": "John Downing",
+    "title": "Skaldsblod",
+    "description": "(Early Access for NaMuBuMo - Testing the starting faction areas in preparation for PvP content in the future!) The honeyed blood of a murdered god, twice stolen, rains from the sky, spreading wisdom and terror where it lands. Three realms battle for the mead of poetry, and the earth itself writhes and twists with myth given shape. Side with the Humans of Midgard, the Jotunn of Jotunnheim, or the Dwarves of Nidavellir as you fight for vengeance, glory, and control of legend itself.",
+    "url": "https://writtenrealms.com/worlds/4058"
   },
   {
-    "name": "Austerity",
-    "title": "Warrens",
-    "description": "AI-Controller Bunnies? yes please",
-    "url": "https://github.com/SwiftAusterity/Warrens"
+    "name": "MTSowbug",
+    "title": "The Orbs of Escher",
+    "description": "The Orbs of Escher is the 2019 NaMuBuMo submission for the Cleft of Dimensions. To explore the Orbs of Escher, connect to the Cleft of Dimensions, create a new character, and go 'up' as soon as you enter the game. The Orbs of Escher are written entirely by GPT-2, the transformer-based natural language processing AI published by OpenAI in February 2019. We fine-tuned GPT-2 to write MUD rooms by feeding it our entire full-scale MUD as a training corpus. After training, we instructed GPT-2 to write several thousand rooms, which we filtered for quality and stitched into the quilt that is the Orbs of Escher. Our human builders have primarily arranged and edited what GPT-2 has authored. The Orbs of Escher are sometimes surreal, sometimes poetic, and sometimes complete nonsense. We hope you will enjoy this experiment into a MUD area written by artificial intelligence.",
+    "url": "https://www.cleftofdimensions.net/"
+  },
+  {
+    "name": "Melissa Moritz",
+    "title": "Lands of Oneiro",
+    "description": "Fantasy World Invaded by Lovecraftian Horrors - Alpha Development Phase",
+    "url": "lands-of-oneiro.net:7000"
+  },
+  {
+    "name": "Addison Walkosz",
+    "title": "The Hallowed Outcasts",
+    "description": "When the last refuge created by the remaining survivors of the Revered Kingdoms is threatened by an malevolent force, the world must seek out a new hero to prepare them for the oncoming war about to unfold.",
+    "url": "https://writtenrealms.com/worlds/4396/the-hallowed-outcasts"
+  },
+  {
+    "name": "Eric Oestrich",
+    "title": "MidMUD",
+    "description": "I extended MidMUD to add two new areas, Slate Vale and Amra Prairie.",
+    "url": "https://midmud.com/"
+  },
+  {
+    "name": "Seanohue",
+    "title": "The Somber Moon",
+    "description": "You have spent your life thus far as a gatherer in Gravel Village, scavenging from the nearby crevasse. The elders have called upon you in your sleep, in a dream. The moon has not changed phase in weeks. The mysterious temple in the desert remains.",
+    "url": "https://writtenrealms.com/worlds/4447/the-somber-moon"
   }
 ]

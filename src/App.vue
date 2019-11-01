@@ -6,6 +6,7 @@
       <v-btn text rounded to="/">Home</v-btn>
       <v-btn text rounded to="/rules">Rules</v-btn>
       <v-btn text rounded to="/submit">Submit</v-btn>
+      <v-btn text rounded to="/entries">Entries</v-btn>
     </v-app-bar>
 
     <v-content class="grey lighten-5">

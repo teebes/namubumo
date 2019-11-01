@@ -15,13 +15,12 @@ export default new Router({
     {
       path: "/entries",
       name: "Entries",
-      component: () => import("@/components/EntriesTemp.vue")
+      component: () => import("@/components/Entries.vue")
     },
     {
       path: "/submit",
       name: "Submit",
       component: () => import("@/components/Submit.vue")
-      //component: () => import("@/components/Contact.vue")
     },
     {
       path: "/rules",
