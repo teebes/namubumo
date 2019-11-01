@@ -2,7 +2,7 @@
   <v-container class="fill-height" fluid>
     <v-row align="center" justify="center">
       <v-col cols="12" sm="10" md="9" lg="8" xl="6">
-        <v-carousel>
+        <v-carousel :cycle="true">
           <v-carousel-item v-for="entry in entries" :key="entry.url">
             <v-sheet color="secondary" height="100%" tile>
               <v-row class="fill-height" align="top" justify="center">
