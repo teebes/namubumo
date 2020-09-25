@@ -27,9 +27,9 @@
               NaMuBuMo encourages participants to take their world from concept to creation within the month of October but no one has any way to validate that sort of thing. Given this is not a contest or competition we only hope everyone participating follows those parameters for their own edification.
             </div>
 
-            <div class='mb-4'>Upon completing and submitting your work at the end you will recieve a certificate of achievement and mention on the archive portion of the website of having participated and completed within that calendar year.</div>
+            <div class='mb-4'>Upon completing and submitting your work at the end you will receive a certificate of achievement and mention on the archive portion of the website of having participated and completed within that calendar year.</div>
 
-            <div class='mb-4'>The top entry out of the worlds created on <a href='https://writtenrealms.com'>Written Realms</a> will have the option make their world multiplayer.</div>
+            <!-- <div class='mb-4'>The top entry out of the worlds created on <a href='https://writtenrealms.com'>Written Realms</a> will have the option make their world multiplayer.</div> -->
       </v-col>
     </v-row>
   </v-container>
@@ -37,6 +37,6 @@
 
 <script>
 export default {
-  name: "Rules"
+  name: "Rules",
 };
 </script>
