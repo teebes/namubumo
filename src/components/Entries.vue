@@ -14,7 +14,7 @@
             <v-card-title>Skaldsblod</v-card-title>
             <v-card-text>
               <div>
-                <a href='https://writtenrealms.com/worlds/4058/Skaldsblod'>https://writtenrealms.com/worlds/4058</a> - John Downing
+                <a href='https://writtenrealms.com/worlds/4058/skaldsblod'>https://writtenrealms.com/worlds/4058/skaldsblod</a> - John Downing
               </div>
                <div class='mt-2'>The honeyed blood of a murdered god, twice stolen, rains from the sky, spreading wisdom and terror where it lands. Three realms battle for the mead of poetry, and the earth itself writhes and twists with myth given shape. Side with the Humans of Midgard, the Jotunn of Jotunnheim, or the Dwarves of Nidavellir as you fight for vengeance, glory, and control of legend itself.</div>
             </v-card-text>

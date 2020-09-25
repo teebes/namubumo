@@ -28,8 +28,6 @@
             </div>
 
             <div class='mb-4'>Upon completing and submitting your work at the end you will receive a certificate of achievement and mention on the archive portion of the website of having participated and completed within that calendar year.</div>
-
-            <!-- <div class='mb-4'>The top entry out of the worlds created on <a href='https://writtenrealms.com'>Written Realms</a> will have the option make their world multiplayer.</div> -->
       </v-col>
     </v-row>
   </v-container>
