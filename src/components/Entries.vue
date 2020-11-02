@@ -3,7 +3,39 @@
     <v-row align="center" justify="center">
       <v-col cols="12" sm="10" md="9" lg="8" xl="6">
 
-        <div class='mt-12 text-center'><em>2020 Entries will be posted after the end of October.</em></div>
+        <div class='page-title d-flex flex-row justify-center'>
+          2020 Entries
+        </div>
+
+        <div class='mt-4'>
+          <v-card class='my-4'>
+            <v-card-title>Waterdeep</v-card-title>
+            <v-card-text>
+              <div>
+                <a href='https://www.waterdeep.org'>https://www.waterdeep.org</a> - Jergal
+              </div>
+               <div class='mt-2'>Waterdeep is a free-to-play steampunk fantasy adventure, live since 1997! We are one of the best RoT muds still kicking and we've never stopped delivering.  We have great developers and offer fair-free-fun with an opportunity to earn some crypto tokens! Waterdeep built a new area specific for NaMuBuMo and Halloween, named Topeka. Topeka offers a fun and dynamic town with a scary new adventure!  Check us out today at waterdeep.org port 4200!</div>
+            </v-card-text>
+          </v-card>
+
+          <v-card class='my-4'>
+            <v-card-title>ArchaicQuest</v-card-title>
+            <v-card-text>
+              <div>
+                <a href='https://play.archaicquest.com'>https://play.archaicquest.com</a> - Liam Kenneth
+              </div>
+               <div class='mt-2'>
+                 ArchaicQuest is a new web based MUD in the making, built with the ArchaicQuest II codebase.<br/>
+                 NaMuBuMo was a good reason to stop coding and give my web admin tool a workout to see what it can or can't do.<br/>
+                 The challenge I set myself was to create an academy mud school area for my game I managed 135 rooms out of 167.<br/>
+                 You can explore the 4 gardens of the academy, there're NPCs that interact with you and a quest to complete.<br/>
+                 ArchaicQuest is early pre-alpha stages but I hope you have fun and get immersed in the descriptions as you walk through the different gardens of the academy.
+              </div>
+            </v-card-text>
+          </v-card>
+        </div>
+
+        <!-- <div class='mt-12 text-center'><em>2020 Entries will be posted after the end of October.</em></div> -->
 
         <div class='page-title d-flex flex-row justify-center'>
           2019 Entries
@@ -69,56 +101,7 @@
                <div class='mt-2'>You have spent your life thus far as a gatherer in Gravel Village, scavenging from the nearby crevasse. The elders have called upon you in your sleep, in a dream. The moon has not changed phase in weeks. The mysterious temple in the desert remains.</div>
             </v-card-text>
           </v-card>
-
-<!-- 
-
-          The Hallowed Outcasts
-          By Addison Walkosz
-          https://writtenrealms.com/worlds/4396/the-hallowed-outcasts
-          When the last refuge created by the remaining survivors of the Revered Kingdoms is threatened by an malevolent force, the world must seek out a new hero to prepare them for the oncoming war about to unfold.
-
-          MidMUD
-          By Eric Oestrich
-          https://midmud.com/
-          Try out the two new areas, Slate Vale and Amra Prairie. These can be found to the west of Ferrite Springs. Slate Vale is a small town that you can find nestled in the Iron Peaks past Amra Prairie.
-
-          The Somber Moon
-          By Seanohue
-          https://writtenrealms.com/worlds/4447/the-somber-moon
-          You have spent your life thus far as a gatherer in Gravel Village, scavenging from the nearby crevasse. The elders have called upon you in your sleep, in a dream. The moon has not changed phase in weeks. The mysterious temple in the desert remains. -->
         </div>
-
-        <!-- <v-carousel :cycle="true">
-          <v-carousel-item v-for="entry in entries" :key="entry.url">
-            <v-sheet color="secondary" height="100%" tile>
-              <v-row class="fill-height" align="top" justify="center">
-                <div class="slide d-flex flex-grow">
-                  <div class="d-flex flex-column flex-grow" height="100%">
-                    <div class="entry-title text-center mb-4">
-                      <a
-                        :href="entry.url"
-                        class="entry-title white--text"
-                        v-if="entry.url.startsWith('http://') || entry.url.startsWith('https://')"
-                      >{{ entry.title }}</a>
-                      <span v-else>{{ entry.title }}</span>
-                    </div>
-                    <div class="world-detail d-flex flex-column align-center">
-                      <div class>By {{ entry.name }}</div>
-                      <div class>
-                        <a
-                          :href="entry.url"
-                          v-if="entry.url.startsWith('http://') || entry.url.startsWith('https://')"
-                        >{{ entry.url }}</a>
-                        <span v-else>{{ entry.url }}</span>
-                      </div>
-                    </div>
-                    <div class="entry-description flex-grow mt-4">{{ entry.description }}</div>
-                  </div>
-                </div>
-              </v-row>
-            </v-sheet>
-          </v-carousel-item>
-        </v-carousel> -->
 
       </v-col>
     </v-row>
